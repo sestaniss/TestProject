@@ -2,7 +2,7 @@ package homework.homework7;
 
 public class Phone {
 
-    String brand;
+    public String brand;
 
     String model;
 
