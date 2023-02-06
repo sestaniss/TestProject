@@ -18,4 +18,4 @@ In situation when local variable have same name as instance-> we use this.
 
 this can be used to refer to the instance methods as well
 
-this() -> can be used to call CURRENT clas constructor
+this() -> can be used to call CURRENT class constructor
