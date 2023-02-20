@@ -1,0 +1,13 @@
+The wrapper classes in Java are used to convert primitive types (int, char, float, etc) into corresponding objects.
+
+Each of the 8 primitive types has corresponding wrapper classes.
+
+Primitive Type    Wrapper Class
+ byte    Byte
+ boolean    Boolean
+ char    Character
+ double    Double
+ float    Float
+ int    Integer
+ long    Long
+ short    Short
