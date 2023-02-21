@@ -54,7 +54,7 @@ class Car extends Insurance{
 
     @Override
     void getQuote() {
-        System.out.println("The insurance coverage will cost $250 for your "+this.carModel+" with "+super.insuranceName);
+        System.out.println("The insurance coverage will cost $425 for your "+this.carModel+" with "+super.insuranceName);
     }
 
     @Override
@@ -70,7 +70,7 @@ class Pet extends Insurance{
     }
     @Override
     void getQuote() {
-        System.out.println("The insurance coverage will cost $80 for your "+this.petType+" with "+super.insuranceName);
+        System.out.println("The insurance coverage will cost $140 for your "+this.petType+" with "+super.insuranceName);
     }
 
     @Override

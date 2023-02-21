@@ -7,9 +7,9 @@ public class Task3 {
     public static void main(String[] args) {
         ArrayList<String> words=new ArrayList<>();
         words.add("hello");
-        words.add("hi");
+        words.add("Marhaba");
         words.add("bye");
-        words.add("goodbye");
+        words.add("Ahlan W Sahlan");
         words.add("ciao");
 
         Iterator<String> iterator=words.iterator();

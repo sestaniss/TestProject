@@ -25,17 +25,6 @@ public class Task2 {
         while(iterator.hasNext()){
             System.out.println(iterator.next());
         }
-        System.out.println("**");
 
-        for (int i = 0; i < cars.size(); i++) {
-            System.out.println(cars.get(i));
-        }
-        System.out.println("***********************************************************");
-
-        int i=0;
-        while(i< cars.size()){
-            System.out.println(cars.get(i));
-            i++;
-        }
     }
 }

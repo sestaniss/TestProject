@@ -14,7 +14,7 @@ public class Task1 {
         names.add("Savo");
 
         System.out.println(names.isEmpty());
-        System.out.println(names.contains("Sam"));
+        System.out.println(names.contains("Tami"));
         System.out.println(names.size());
     }
 }

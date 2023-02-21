@@ -6,8 +6,8 @@ import java.util.LinkedList;
 public class Task7 {
     public static void main(String[] args) {
         Card card1=new Card("Capital one",22.4);
-        Card card2=new Card("Chase",25.8);
-        Card card3=new Card("Apple",27.5);
+        Card card2=new Card("Apple",25.8);
+        Card card3=new Card("AMEX",27.5);
 
         LinkedList<Card> cards=new LinkedList<>();
         cards.add(card1);
