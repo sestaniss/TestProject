@@ -42,8 +42,8 @@ Insurance car=new Car("Progressive","Hyundai");
 }
 abstract class Insurance{
     String insuranceName;
-    abstract void getQuote();
-    abstract void cancelInsurance();
+  public   abstract void getQuote();
+   public abstract void cancelInsurance();
 }
 class Car extends Insurance{
     String carModel;
@@ -53,12 +53,12 @@ class Car extends Insurance{
     }
 
     @Override
-    void getQuote() {
+  public   void getQuote() {
         System.out.println("The insurance coverage will cost $425 for your "+this.carModel+" with "+super.insuranceName);
     }
 
     @Override
-    void cancelInsurance() {
+  public   void cancelInsurance() {
         System.out.println("There is no penalty to cancel coverage with "+super.insuranceName);
     }
 }
@@ -69,12 +69,12 @@ class Pet extends Insurance{
         this.petType=petType;
     }
     @Override
-    void getQuote() {
+  public   void getQuote() {
         System.out.println("The insurance coverage will cost $140 for your "+this.petType+" with "+super.insuranceName);
     }
 
     @Override
-    void cancelInsurance() {
+  public   void cancelInsurance() {
         System.out.println("There is a $45 charge to cancel coverage with "+super.insuranceName);
     }
 }
@@ -83,12 +83,12 @@ class Health extends Insurance{
         super.insuranceName=insuranceName;
     }
     @Override
-    void getQuote() {
+  public   void getQuote() {
         System.out.println("The insurance coverage will cost $1250 with "+super.insuranceName);
     }
 
     @Override
-    void cancelInsurance() {
+  public   void cancelInsurance() {
         System.out.println("There is a waiting period that has to be met before you can cancel coverage with "+super.insuranceName);
     }
 }
